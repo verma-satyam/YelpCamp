@@ -1,0 +1,40 @@
+.thumbnail img {
+    max-height: 100vh;
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.dlt-form {
+    display: inline;
+}
+
+.space {
+    margin-bottom: 10px;
+}
+
+.landing {
+    width: 100vw;
+    background-color: #f1faee;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&);
+    height: 80vh;
+}
+
+.landing h1 {
+    margin: 0;
+    text-align: right;
+    padding-top: 15rem;
+    padding-left: 55rem;
+    padding-right: 10rem;
+    font-size: 90px;
+}
+
+.landing a {
+    position: absolute;
+    right: 10rem;
+}
