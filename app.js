@@ -63,8 +63,8 @@ passport.deserializeUser(function(id, done) {
 });
 
 passport.use(new GoogleStrategy({
-        clientID: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        clientID: "623404124522-a3jdhftu8j6aa55efd3kb5ntcit6lgpe.apps.googleusercontent.com",
+        clientSecret: "RzTj2FcGSJSpBUE7bUeovCpH",
         callbackURL: "http://localhost:3000/auth/google/yelpCamp",
         userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
     },
