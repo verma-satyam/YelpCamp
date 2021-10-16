@@ -1,6 +1,6 @@
 const moongoose = require('mongoose');
 require('dotenv').config();
-const uri = process.env.MONGO_URI;
+const uri = "mongodb+srv://admin:admin@cluster0.dggb8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 
 const connectDB = () => {
