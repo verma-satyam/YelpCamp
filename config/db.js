@@ -1,6 +1,6 @@
 const moongoose = require('mongoose');
 require('dotenv').config();
-const uri = "mongodb+srv://admin:admin@cluster0.dggb8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:admin@cluster0.dggb8.mongodb.net/YelpCamp?retryWrites=true&w=majority";
 
 
 const connectDB = () => {
