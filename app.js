@@ -92,6 +92,6 @@ app.use(campgroundRoutes);
 app.use(commentRoutes);
 
 //SHOW - shows more info about one campgrounds
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("YelpCamp Server has started");
 });
